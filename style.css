@@ -1,9 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
-
+@font-face {
+  font-family:Gotham-black ;
+  src: url(Gotham-Black.otf);
+}
 * {
   box-sizing: border-box;
 }
-
+h4{
+  font-family:Gotham-black ;
+  font-size: large;
+  font-weight: 100;
+  font-style: oblique;
+}
 body {
   /* background-image: linear-gradient(0deg, #30e3ca 40.8%, #e4f9f5 90%); */
   background-image: url(./images/MartinGarrix_1024-2.jpg);
