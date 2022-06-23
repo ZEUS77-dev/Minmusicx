@@ -5,7 +5,11 @@
 }
 
 body {
-  background-image: linear-gradient(0deg, #30e3ca 40.8%, #e4f9f5 90%);
+  /* background-image: linear-gradient(0deg, #30e3ca 40.8%, #e4f9f5 90%); */
+  background-image: url(./images/MartinGarrix_1024-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,9 +18,12 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0;
 }
-
+img.logo{
+    height: 30vh;
+   
+}
 .music-container {
-  background-color: #fff;
+  background-color: bisque;
   border-radius: 15px;
   box-shadow: 0 20px 20px 0 rgba(19, 1, 1, 0.6);
   display: flex;
@@ -33,7 +40,7 @@ body {
 
 .img-container::after {
   content: "";
-  background-color: #fff;
+  background-color: bisque;
   border-radius: 50%;
   position: absolute;
   bottom: 100%;
@@ -78,7 +85,7 @@ body {
 }
 
 .action-btn {
-  background-color: #fff;
+  background-color: bisque;
   border: 0;
   color: #40514e;
   font-size: 20px;
